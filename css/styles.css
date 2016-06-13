@@ -1,0 +1,192 @@
+body {
+  font-family: Georgia;
+  margin: 0;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+header h1 {
+  background: url(../images/logo.png) no-repeat;
+  width: 100px;
+  text-indent: -999999px;
+  float: left;
+}
+
+header nav {
+  float: right;
+}
+
+header nav h2 {
+  text-indent: -100000px;
+  height: 0;
+  margin: 0;
+}
+
+header nav li {
+  float: left;
+  list-style-type: none;
+  margin: 10px 20px;
+}
+
+header nav li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+header nav li a:hover {
+  color: #f34949;
+}
+
+#main-banner {
+  width: 100%;
+}
+
+#main-banner img {
+  width: 100%;
+  border-bottom: 6px solid #f34949;
+}
+
+#home-menu h2 {
+  background: url(../images/menu-bg.png) no-repeat;
+  width: 156px;
+  height: 74px;
+  text-indent: -10000px;
+  margin: 0 auto;
+  position: relative;
+  top: -5px;
+}
+
+#home-menu ul:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+#home-menu li {
+  float: left;
+  width: 42%;
+  margin: 20px 0 20px 8%;
+}
+
+#home-menu li:nth-child(odd) {
+  margin: 20px 8% 20px 0;
+}
+
+#home-menu li .dish {
+  float: left;
+  color: #555;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  background: #fff;
+  padding-right: 15px;
+}
+
+#home-menu li .price {
+  float: right;
+  color: #555;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  background: #fff;
+  padding-left: 15px;
+}
+
+#home-menu li .description {
+  clear: both;
+  display: block;
+  color: #999;
+  font-style: italic;
+  font-size: 14px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+  position: relative;
+  top: -8px;
+}
+
+#featured {
+  margin-top: 100px;
+}
+
+#featured ul:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+#featured li {
+  float: left;
+  width: 23%;
+  margin: 1%;
+  list-style-type: none;
+}
+
+#featured li img {
+  margin-bottom: 10px;
+}
+
+#featured li a {
+  color: #333;
+  text-decoration: none;
+  float: left;
+}
+
+#featured li span {
+  float: right;
+  color: #333;
+}
+
+footer {
+  background: #3b3b3b;
+  margin-top: 100px;
+  padding: 30px 0;
+}
+
+footer:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+footer ul {
+  float: left;
+  color: #eee;
+  width: 23%;
+  margin-right: 2%;
+}
+
+footer li {
+  margin: 10px 0;
+}
+
+footer li img {
+  width: 84px;
+}
+
+footer a {
+  color: #eee;
+  text-decoration: none;
+}
